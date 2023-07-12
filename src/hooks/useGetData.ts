@@ -35,10 +35,7 @@ export function useGetData<T>(API_URL: string){
         data: null,
     });
 
-
-    // const [data, setData] = useState<T | null >(null);
-    // const [error, setError] = useState(null);
-    // const [loading, setLoading] = useState<boolean>(true);
+ 
  
     useEffect(() => {
         requestData()
